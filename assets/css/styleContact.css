@@ -1,0 +1,620 @@
+/*BEGIN Responsive CSS CONTACT*/
+
+
+ header{
+ 	   border-top: 1px solid #cccccc;
+     background-color: white; 
+ }
+   
+   .name,
+   .heading-contact {
+   	   font-family: 'Georgia', Times, "Times New Roman",serif;
+       font-weight: bold;
+       font-size: 2em;
+   }
+
+   .heading-connect {
+ 	     font-family: 'Georgia', Times, "Times New Roman";
+       font-weight: bold;
+       font-size: 1.5em;
+   }
+
+
+   body{
+    	background-image: url(../images/noise_lines.png);
+   }
+
+
+   .name {
+      background-color: #4aaaa5;
+      color: white;
+      font-size: 29px;
+      padding: 29px;
+      margin-top: 0;
+      text-align: center;
+      float: left;
+      margin-left: 103px ; 
+        
+    }
+
+
+
+
+    .display {
+    	 text-align: right;
+    	 padding: 30px 20px 57px 0px;
+       font-size: 17px;
+       max-width: 100%;
+       height: 60px; 
+       max-width: 100%;
+       background-color: white;
+       border-top: 1px solid #cccccc;
+       border-bottom: 2px solid #cccccc;
+    }
+
+
+    .head-About,
+    .head-Portfolio{
+         border-right: 1px solid #cccccc;
+	       margin:10px 10px 10px 0px;
+	       color: #777777;
+         padding-right: 20px;
+    }
+
+    .head-Contact{
+       	color: #777777;
+      	margin-right: 185px;
+
+     }
+
+
+  
+
+
+    .container{
+         width: 70%;
+         float:left;
+      }
+
+    .container{
+          min-height: calc(100vh - 20px);
+      }
+
+      #main-contact {
+        	height: 620px;
+        	width: 650px;
+        	background-color: white;
+        	display: inline-block;
+        	border: 1px solid #dddddd;
+          padding: 1px;
+          margin: 25px 0px 40px 88px;
+      }
+
+
+
+    .heading-contact {
+          color: #4aaaa5; 
+         	background-color:white;
+          margin: 0px 30px 0px 30px; 
+          padding: 40px 30px 30px 2px;
+          border-bottom: 3px solid #dddddd;
+          font-size: 29px;
+          max-width: 900px;
+        	min-width: 100px;
+    }
+     
+
+
+     .body-contact {
+         color:#777777;
+         background-color: white;
+         width: 95%;
+         margin: 20px 0px 10px 30px;
+         align-content: center;
+         padding: 2px 1px 1px 1px;
+         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
+         font-size:17px;
+     }
+
+        #nameForm,
+        #emailForm {
+           padding: 4px;
+           width: 96%;
+           margin-bottom: 8px;
+           border: 1.4px solid #dddddd;
+      }
+
+  
+
+  	#submitButton {
+  	    	background-color: #4aaaa5;
+          color: white;
+          font-size: 17px;
+          padding: 8px 33px;
+          margin-top: 12px;
+          text-align: center;
+          float: left;
+            
+  	}
+
+    .messageForm {
+      	height: 196px;
+      	width: 96%;
+      	border: 1.4px solid #dddddd;
+    }	
+
+    img:hover{
+        outline: 2px solid #4aaaa5;
+        outline-offset: 1px;
+    }
+    
+    .connect {
+  	   background-color: white;
+  	   width: 270px;
+   	   height: 200px;
+  	   border: 1px solid #dddddd;
+  	   margin: 25px 90px 20px 0px;
+       padding: 13px 10px ;
+   	   float:right;
+    }
+
+    .heading-connect {
+    	   color: #4aaaa5; 
+     	   border-bottom: 2px solid #dddddd; 
+         text-align: center;
+         margin: 10px;
+         padding-bottom: 13px;
+    }
+
+
+    .Github{
+        margin-left: 13px;
+        margin-top: 10px;
+        width: 73px;
+        height: 73px;
+    } 
+
+
+
+
+     .LinkedIn{
+         margin-top: 10px;
+         width: 73px;
+         height: 73px;
+     }
+     
+
+     .StackOverflow {
+          margin-top: 10px;
+          width: 64px;
+          height: 64px;
+          margin-left: 3px;
+     }
+
+    .footer p {
+    		   background-color: #666666;
+    		   color:#cccccc;
+    		   text-align: center;
+    		   align-content: center;
+    	     width: 100%;
+    		   padding: 40px;
+    		   border-top: 7px solid #4aaaa5;
+    		   margin:0px;
+    		   font-size: 12px;
+           clear:both;
+           font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
+    }
+
+    .footer {
+         height: 20px;
+    }
+
+     html {
+        box-sizing: border-box;
+      }
+     *, *:before, *:after {
+      box-sizing: inherit;
+     }
+ 
+                                         
+               /* STARTS RESPONSIVE @media screen 980PX */
+
+    /*@media screen and (min-width: 980px) and (max-width: 981px){            */
+
+   @media screen and (max-width: 980px) {
+             
+       
+       header{
+           
+           position: static;
+       }
+
+       .container{
+             clear: both;
+             width: 980px;
+          }
+        
+      
+         .heading-connect {
+             
+               font-size: 18px;
+         }
+
+         .name {
+           
+            font-size: 20px;
+            margin-bottom: 0;
+            padding: 24px;
+            text-align: center;
+            float: left;
+            margin-left: 80px ; 
+              
+          }
+
+
+          .display {
+            
+             padding: 20px 10px 10px 10px;
+             font-size: 15px;
+             height: 70px; 
+             width: 980px;
+             max-width:100%;
+            
+          }
+
+          
+          .head-Contact {
+              
+              margin-right: 70px;
+
+           } 
+
+          .body-contact {
+               width: 93%;
+          }
+
+
+           #main-contact {
+              height: 606px;
+              width: 530px;
+              margin: 35px 0px 35px 59px;
+              
+            }
+
+            #nameForm,
+            #emailForm,
+            .messageForm {
+                    width: 95%;
+                    padding-right:10px;
+                }
+
+
+
+
+          .heading-contact {
+              
+              border-bottom: 2px solid #dddddd;
+              font-size: 20px;
+             
+           }
+
+             
+                 }
+
+
+
+         .connect {
+               width: 250px; height: 180px;
+               float: right;
+               position: absolute;
+               margin-left: 624px;
+               margin-top: -640px;
+          }
+
+         .heading-connect {
+            
+               text-align: center;
+           
+          }
+
+          .Github{
+         
+              width: 67px;
+              height: 67px;
+          } 
+
+
+
+          .LinkedIn{
+           
+               width: 67px;
+               height: 67px;
+           }
+       
+
+          .StackOverflow {
+           
+                width: 59px;
+                height: 59px;
+                
+           }
+
+
+          .footer p {
+             
+             width: 980px;
+             padding: 25px;
+        
+             
+           }
+
+  } 
+
+
+       /* ENDS RESPONSIVE @media screen 980PX */
+       
+
+         
+     
+
+          
+
+         /*--STARTS RESPONSIVE @media screen 768PX */
+
+         /*@media screen and (max-width: 768px) {*/
+
+
+           @media screen and (min-width: 768px) and (max-width: 981px){
+                      
+
+     
+               header{
+                   
+                   position: static;
+               }
+
+               .container{
+                     clear: both;  
+                     width: 768px;
+                     height: 1121px;
+                  
+               }
+
+                .heading-connect {
+                     
+                     font-size: 18px;
+                }
+
+               
+                .name {
+                   
+                    font-size: 20px;
+                    margin-bottom: 0;
+                    padding: 24px;
+                    text-align: center;
+                    float: left;
+                    margin-left: 14px ; 
+                      
+                }
+
+
+
+                .display {
+                    
+                     padding: 20px 10px 10px 10px;
+                     font-size: 15px;
+                     height: 70px; 
+                     width: 768px;
+                     max-width:100%;
+                    
+                }
+
+                 
+                  
+                .head-Contact {
+                      
+                      margin-right: 5px;
+
+                }  
+
+                .headNameForm,
+                .emailHead, 
+                .Message-head  {
+                   font-size: 16px;
+                }
+                
+
+                 #main-contact {
+                      height: 600px;
+                      width: 735px;
+                      margin: 35px 0px 35px 0px;
+                      
+                  }
+ 
+                  #submitButton {
+                     padding: 5px 25px;
+                  }
+
+                 .heading-contact {
+                      
+                      border-bottom: 2px solid #dddddd;
+                      font-size: 20px;
+                     
+                  }
+
+               
+                 .connect {
+                       width: 735px; height: 200px;
+                       position: absolute;
+                       margin: 0px ;
+                  }
+
+                 .heading-connect {
+                    
+                     text-align: left;
+                   
+                  }
+
+                  .Github{
+                     
+                      width: 53px;
+                      height: 53px;
+                  } 
+
+
+
+                   .LinkedIn{
+                       
+                       width: 53px;
+                       height: 53px;
+                   }
+               
+
+                   .StackOverflow {
+                       
+                        width: 45px;
+                        height: 47px;
+                        
+                   }
+
+
+
+
+                    .footer p {
+                         
+                         width: 768px;
+                         padding: 25px;
+                    
+                         
+                    }
+                
+
+           }
+
+                      /* ENDS RESPONSIVE @media screen 768PX */
+     
+
+                       
+                     /* STARTS RESPONSIVE @media screen 640PX */
+
+                       
+          /*@media screen and (max-width: 640px){*/
+
+         @media screen and (min-width: 640px) and (max-width: 769px){
+     
+               
+               header{
+                   
+                   position: static;
+               }
+
+
+                .container{
+                     clear: both; 
+                     width: 640px;
+                     height: 835px;
+                
+                  }
+
+         
+               .name {
+             
+                  font-size: 20px;
+                  padding: 23px 229px;
+                  margin-left: 0px;
+              
+                  text-align: center; 
+                    
+                  }
+
+
+               .display {
+               
+                   padding: 85px 80px 35px 0px;
+                   font-size: 15px;
+                  
+                }
+
+                .head-Portfolio,
+                .head-About {
+                
+                      margin-right: 40px;
+                      padding-right: 65px;
+                      border-right: 0.2px solid #cccccc;
+                      margin-left: 10px;
+                  }
+
+             
+                .head-Contact{
+                
+                    margin-right: 30px;
+                    margin-left: 40px; 
+                }
+
+
+               .heading-contact {
+                
+                     border-bottom: 2px solid #dddddd;
+                
+                }
+
+
+                #main-contact {
+                    height: 600px;
+                    width: 610px;
+                    margin: 15px 0px 25px 0px;
+                
+                }
+
+
+
+               .connect {
+             
+                   width: 610px;
+                   height: 160px;
+                   margin: 0 auto;
+            
+                }
+
+
+                .heading-connect {
+            
+                       border-bottom: 1px solid #dddddd; 
+                       text-align: left;
+
+                 }
+
+
+                .footer p {
+                     
+                     width: 640px;
+                     padding: 20px;
+                     
+                 }
+
+        }
+               
+            /* Ends RESPONSIVE @media screen 640PX */
+
+ 
+
+          
+
+
+
+
+         
+
+
+
+
+ /*END Responsive CSS CONTACT*/
+
+
+
+
+
+
+
+
+
