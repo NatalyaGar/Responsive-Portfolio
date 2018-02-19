@@ -86,7 +86,7 @@ html{
         min-height: calc(100vh - 20px);
     }
 
-    p:hover { 
+    p:hover{ 
        color: black; 
     }
 
