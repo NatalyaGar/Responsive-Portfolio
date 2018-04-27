@@ -86,7 +86,7 @@ html{
    
 
     #main-portfolio {
-      	height: 838px;
+      	height: 1140px;
       	width: 650px;
       	background-color: white;
       	display: inline-block;
@@ -178,7 +178,7 @@ html{
         padding: 15px 65px;
         text-align: center;
         position: absolute;
-        margin-top: -56px;
+        margin-top: -68px;
 
   }
 
@@ -233,9 +233,26 @@ html{
       padding: 15px 103.5px;
       text-align: center;
       position: absolute;
-      margin-top: -57px;
+      margin-top: -68px;
       margin-left: 313px;
     }
+
+
+       .Bamazon {
+         margin: 50px 0 30px 0;
+      }
+
+  .SignBamazon {
+      background-color: #4aaaa5;
+      color: white;
+      font-size: 20px;
+      padding: 15px 96.4px;
+      text-align: center;
+      position: absolute;
+      margin-top: -97px;
+
+  }
+
    
   
    .connect {
@@ -385,7 +402,7 @@ body {
                 }
 
                 #main-portfolio {
-                    height: 1885px;
+                    height: 2200px;
                     width: 500px;
                     margin: 15px 0px 25px 70px;
                 
@@ -453,6 +470,19 @@ body {
                 margin-left: 0px;
               }
 
+
+                .SignBamazon {
+                    background-color: #4aaaa5;
+                    color: white;
+                    font-size: 20px;
+                    padding: 15px 178.4px;
+                    text-align: center;
+                    position: absolute;
+                    margin-top: -97px;
+
+                }
+
+
                .SignRockPScissors{
                    
                     font-size: 20px;
@@ -491,7 +521,7 @@ body {
                    float: right;
                    position: absolute;
                    margin-left: 600px;
-                   margin-top: -1640px; 
+                   margin-top: -2224px; 
                 }
 
 
@@ -576,10 +606,9 @@ body {
             }  
 
            
-          
 
            #main-portfolio {
-                height: 895px;
+                height: 1200px;
                 width: 735px;
                 margin: 35px 0px 35px 0px;
                 
@@ -675,6 +704,18 @@ body {
                   margin-top: -105px;
                   margin-left: 350px;
              }
+
+               .Bamazon{
+                  margin-top: 0px;
+               }
+
+             .SignBamazon{
+                
+                font-size: 15px;
+                padding: 10px 128px;
+                margin-top: -79px;
+              }
+
          
             .connect {
                  width: 735px; height: 200px;
@@ -719,6 +760,11 @@ body {
                      padding: 25px;
                 
                      
+                }
+
+                .footer {
+                  position: absolute;
+                  margin-top: 1520px;
                 }
 
           
@@ -789,8 +835,7 @@ body {
 
 
                 #main-portfolio {
-                    /*height: 1800px;*/
-                    height: 2135px;
+                    height: 2435px;
                     width: 610px;
                     margin: 15px 0px 25px 0px;
                 
@@ -859,6 +904,24 @@ body {
                 margin-left: 0px;
               }
 
+
+               .Bamazon{
+               position: static;
+                margin-left: 0px;
+                margin-top: 35px;
+                margin-bottom: 0;
+
+
+             }
+
+             .SignBamazon  {
+                
+                font-size: 20px;
+                padding: 15px 231.2px;
+                margin-top: -65px;
+                margin-left: 0px;
+              }
+
                .SignRockPScissors{
                    
                     font-size: 20px;
@@ -910,6 +973,11 @@ body {
                         
                  }
 
+
+                 .footer {
+                  position: absolute;
+                  margin-top: 300px;
+                }
                 
 
         }
